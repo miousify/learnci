@@ -1,0 +1,16 @@
+
+
+
+version: 2.1
+
+jobs:
+  build: 
+    docker: 
+      - image: node:10
+      - environments: 
+          NAME: 'joshua'
+    steps: 
+      - checkout 
+      - run:
+          name: Command to execute
+          command: ls -a
