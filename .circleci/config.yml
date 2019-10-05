@@ -7,7 +7,7 @@ jobs:
   build: 
     docker: 
       - image: node:10
-      - environments: 
+      - environment: 
           NAME: 'joshua'
     steps: 
       - checkout 
