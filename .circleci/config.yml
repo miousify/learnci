@@ -1,16 +1,6 @@
-
-
-
 version: 2.1
 
 jobs:
-  build: 
+  build:
     docker:
-      - image: circleci/node:10
-      - environment:
-          NAME: 'joshua'
-    steps:
-      - checkout
-      - run:
-          name: Command to execute
-          command: ls -a
+      - image:  circleci/node:10
