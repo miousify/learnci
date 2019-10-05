@@ -6,8 +6,3 @@ jobs:
       - image:  circleci/node:10
     steps:
       - checkout
-      - run
-          name: First working command
-          command: |
-            echo "helo world"
-            echo "how are you today"
