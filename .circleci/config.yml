@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run
-        name: First working command
-        command: |
-          echo "helo world"
-          echo "how are you today"
+          name: First working command
+          command: |
+            echo "helo world"
+            echo "how are you today"
